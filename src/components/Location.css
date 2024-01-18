@@ -1,0 +1,349 @@
+.place-text{
+    color: white;
+}
+
+.industries-sec {
+    /* background: url(../images/industries-bg.jpg) center top no-repeat; */
+    background-size: cover;
+    background-attachment: local;
+    min-height: 298px;
+    clear: both;
+    position: relative;
+    display: block;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.industries-sec h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-bottom: 30px;
+    position: relative;
+    padding-bottom: 8px
+}
+
+.industries-sec h2:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    right: 0;
+    background: #fff;
+    width: 60px;
+    height: 2px;
+    display: block
+}
+
+.industries-list {
+    margin: 0;
+    padding: 0;
+    list-style: none
+}
+
+.industries-list ul li {
+    float: left;
+    width: 16.6666%;
+    margin-bottom: 25px
+}
+
+.industries-area {
+    width: 100%;
+    margin: auto;
+    transition: all linear .2s;
+    text-align: center
+}
+
+.industries-area:hover {
+    transform: scale(1.1)
+}
+
+.industries-img-area {
+    width: 120px;
+    height: 120px;
+    padding: 5px !important;
+    border-radius: 100%;
+    border: 2px solid #b3e4eb;
+    margin: auto;
+    margin-bottom: 15px
+}
+
+.industries-main-img {
+    width: 106px;
+    height: 106px;
+    margin: auto;
+    border-radius: 100%;
+    background: #5c8dbe;
+    text-align: center
+}
+
+.industries-main-img figure {
+    width: 106px;
+    height: 106px;
+    line-height: 106px;
+    display: table-cell;
+    vertical-align: middle
+}
+
+.industries-main-img figure a {
+    display: block;
+    width: 106px;
+    height: 106px;
+    padding-top: 0px;
+    text-align: center
+}
+
+.industries-area a {
+    font-size: 17px;
+    line-height: 24px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-transform: capitalize
+}
+
+.industries-main-img img {
+    height: 80px;
+    width: 80px;
+    margin-top: 10px;
+}
+
+/* .industries-main-img figure i.ind-acc-i {
+    display: block;
+    width: 52px;
+    height: 52px;
+    background-image: url(/assets/img/industries/budget.png);
+    display: inline-block
+}
+
+.industries-main-img figure a i.ind-acc-i1 {
+    background-position: 0 0
+}
+
+.industries-main-img figure a i.ind-acc-i2 {
+    background-position: -75px -1px
+}
+
+.industries-main-img figure a i.ind-acc-i4 {
+    background-position: -232px 0
+}
+
+.industries-main-img figure a i.ind-acc-i5 {
+    background-position: -311px 0
+}
+
+.industries-main-img figure a i.ind-acc-i7 {
+    background-position: -487px 0
+}
+
+.industries-main-img figure a i.ind-acc-i8 {
+    background-position: -572px 0
+}
+
+.industries-main-img figure a i.ind-acc-i10 {
+    background-position: -733px -1px
+}
+
+.industries-main-img figure a:hover i.ind-acc-i1 {
+    background-position: 0 -65px
+}
+
+.industries-main-img figure a:hover i.ind-acc-i2 {
+    background-position: -78px -64px
+}
+
+.industries-main-img figure a:hover i.ind-acc-i4 {
+    background-position: -232px -62px
+}
+
+.industries-main-img figure a:hover i.ind-acc-i5 {
+    background-position: -311px -61px
+}
+
+.industries-main-img figure a:hover i.ind-acc-i7 {
+    background-position: -487px -61px
+}
+
+.industries-main-img figure a:hover i.ind-acc-i8 {
+    background-position: -572px -61px
+}
+
+.industries-main-img figure a:hover i.ind-acc-i10 {
+    background-position: -733px -61px
+} */
+
+.view-all-ind {
+    display: block;
+    padding-top: 30px;
+    clear: both
+}
+
+.view-all-ind a {
+    display: inline-block;
+    border: 1px solid rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    padding: 10px 25px;
+    text-transform: uppercase
+}
+
+.view-all-ind a img {
+    padding-right: 6px
+}
+
+.click-icon {
+    width: 20px;
+    height: 15px;
+}
+
+@media(max-width:767px) {
+    .industries-sec h2 {
+        font-size: 24px
+    }
+
+    .industries-list ul li {
+        width: 30%
+    }
+
+    .industries-area a {
+        font-size: 15px;
+        min-height: 60px;
+        display: block;
+        line-height: 21px;
+        margin-top: 2px
+    }
+
+    .industries-area {
+        width: 100%
+    }
+}
+@media(max-width:574px){
+    .industries-list ul li {
+            width: 100%
+        }
+
+}
+
+/* web development  */
+
+.web-development-content p {
+    text-align: left;
+}
+
+.web-development-content p {
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+    font-weight: 400;
+    font-family: 'Catamaran', sans-serif;
+}
+
+.web-development-content h1 {
+    text-align: center;
+}
+
+.web-development-content h4 {
+    color: #00429b;
+}
+
+.web-development-box {
+    display: block;
+    box-shadow: 5px 7px 15px 2px rgb(82 90 101 / 12%);
+    text-align: left;
+    border-radius: 3px;
+    padding: 10px;
+    border-left: 2px solid gray;
+    margin: 15px 0;
+}
+
+.banner-counter {
+    background-color: #006dba;
+}
+
+.round-btn {
+    border: none;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    overflow: hidden;
+    z-index: 1;
+    color: #ffffff;
+    background-color: #7b68ee;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    font-weight: 600;
+    font-size: 18px;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    margin-right: 10px;
+    box-shadow: 0 7px 25px rgb(123, 104, 238, 0.25);
+    border-radius: 33px;
+}
+
+/* .techvio-nav .navbar .navbar-nav .nav-item a i {
+    font-size: 29px;
+    position: relative;
+    top: -1px;
+    margin-left: 1px;
+} */
+
+.navbar-brand {
+    display: inline-block;
+    padding-top: -0.6875rem;
+    padding-bottom: -1.6875rem;
+    margin-right: 1rem;
+    margin-top: -1rem;
+    font-size: 3rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+
+/* contact us */
+
+.why-choose-us p {
+    font-size: 18px;
+    padding-top: 10px;
+}
+
+.web-development-blog {
+    align-items: center;
+}
+
+.web-development-blog h2,
+p {
+    text-align: center;
+}
+
+/*****************************************
+ ** - Our Technologies
+ ******************************************/
+
+.serve-technologies {
+    padding-bottom: 30px;
+}
+
+.serve-technologies p {
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+.serve-technologies .design-items {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.design-title {
+    font-size: 1rem;
+}
+.container-3{
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+.container-3 h2{
+    margin-bottom: 70px;
+}

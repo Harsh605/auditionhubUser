@@ -1,0 +1,40 @@
+body{
+    background-color: #F2F2F2;
+}
+.language-container-in{
+    /* background-color: ; */
+    height: 60vh;
+    padding-top: 20px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.language-container {
+    text-align: center;
+    padding: 20px;
+}
+
+.form-title {
+    font-size: 44px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.language-option {
+    font-size: 30px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+@media (max-width:500px){
+    .font-container-in {
+            /* background-color: ; */
+            display: flex;
+            flex-direction: column;
+        }
+}
+
+/* Add responsive styles here */

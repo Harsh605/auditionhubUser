@@ -1,0 +1,10 @@
+.remove::after {
+    content:none !important;
+    
+ }
+ .remove::after {
+    display:none ;
+ }
+ .schedule-pack .schedule-list .accordion-item .accordion-header .accordion-button.collapsed:after{
+    display: none !important;
+ }

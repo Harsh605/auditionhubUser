@@ -1,0 +1,96 @@
+
+
+.Navbar.fixed {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    /* Adjust as needed based on your layout */
+    background-color: #fff;
+    /* Change the background color as needed */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    /* Optional: Add a subtle shadow */
+}
+
+
+
+.Navbar.fixed {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000; /* Adjust as needed based on your layout */
+  background-color: #fff; /* Change the background color as needed */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+}
+
+.Navbar-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px; /* Adjust the padding as needed */
+}
+
+.Navbar-logo {
+  /* display: flex; */
+  align-items: center;
+}
+
+.menu-area {
+  display: flex;
+  align-items: center;
+  
+}
+
+.menu {
+  list-style: none;
+  margin: 10px;
+  padding: 0px;
+  display: flex;
+}
+
+.menu li {
+  margin-right: 20px; /* Adjust the spacing between menu items */
+}
+
+.menu a {
+  text-decoration: none;
+  color: #333; /* Adjust the color as needed */
+  font-weight: bold;
+  font-size: 16px;
+  transition: color 0.3s ease-in-out;
+}
+
+.menu a:hover {
+  color: #ff5733; /* Adjust the hover color as needed */
+}
+.register-now {
+  background-image: linear-gradient(90deg, #f5317f 0%, #ff7c6e 100%);
+  color: #fff;
+  border-radius: 2px;
+  transition: background-image 0.3s cubic-bezier(0.39, 0.575, 0.565, 1);
+}
+
+
+.resNav {
+  display: none;
+}
+
+@media (max-width: 575px) {
+  
+  .header-bar {
+  width: 30px;
+  height: 20px;
+  margin: 15px;
+}
+
+
+
+
+}
+
+@media (max-width: 990px) {
+  
+  .resNav {
+      display: block;
+    }
+}
